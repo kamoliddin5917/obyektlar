@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: gold;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  padding: 30px 30px 0 30px;
+}
+
+.card__list {
+  background-color: #fff;
+  border-radius: 8px;
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+  color: gold;
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 330px;
+  margin-bottom: 30px;
+}
+
+.card__list:hover {
+  color: red;
+}
+
+.card__list:active {
+  background-color: gray;
+  color: gold;
+  transition: color 0.2s;
+}
+
+.card__img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card__header {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.card__text {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.card__date {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=main.css.map */
